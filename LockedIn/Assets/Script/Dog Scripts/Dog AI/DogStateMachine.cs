@@ -3,6 +3,7 @@ using UnityEngine;
 public class DogStateMachine
 {
     private DogState currentState;
+
     public void ChangeState(DogState newState)
     {
         currentState?.Exit();
